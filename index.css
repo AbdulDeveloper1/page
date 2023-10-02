@@ -1,0 +1,1050 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.headin{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 60px;
+    align-items: center;
+    padding-inline:15px ;
+    background-color:#002052;
+}
+.headin a{
+    color: white;
+    text-decoration: none;
+}
+.headin .contact{
+    font-size: 20px;
+}
+.headin span {
+    padding-inline: 40px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn-1{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #002052;
+    color: white;
+    transition: all 0.5s ease;
+    padding-inline: 15px;
+}
+button{
+    text-decoration: solid;
+    font-weight: 900;
+}
+.btn{
+    font-size: 12px;
+    border-radius:35px ;
+    padding: 10px;
+    padding-inline: 25px;
+    background-color: darkgoldenrod ;
+    color: black;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
+}
+.btn-1:hover{
+    background-color: rgb(186, 212, 241);
+    color: black;
+}
+.btn:hover{
+    background-color: white;
+}
+header{
+    display: flex;
+    line-height: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 10px #00000026;
+}
+header .img img{
+    width: 150px;
+}
+header .link a{
+   text-decoration: none;
+   color: #002052;
+   font-size: 20px;
+   padding-inline: 12px;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+header .link a:hover{
+    color: rgb(0, 97, 208);
+}
+.max-width{
+    max-width: 1300px;
+}
+.continer{
+    padding-top: 70px;
+   display: flex;
+   justify-content: center;
+   
+}
+.flex{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.flex .left{
+    width: 100%;
+}
+
+.flex h1{
+    font-size: 70px;
+    color: #002052;
+}
+.left span{
+    font-size: 20px;
+    align-items: center;
+}
+.left a{
+    font-size: 20px;
+    color: #002052;
+}
+.flex .right{
+    width: 100%;
+} 
+.right .line{
+    padding: 15px;
+    border: 1px solid #9CC4FF;
+    margin-bottom: 15px;
+    border-radius: 35px;
+}
+.right span{
+    font-size: 20px;
+    color: #002052;
+    font-weight: 900;
+    padding-inline: 10px;
+    
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width:300px;
+    box-shadow: 0 2px 10px #00000026;
+    padding: 20px;
+    max-width: 100%;
+}
+.box .img img{
+    width: 190px;
+    max-width: fit-content;
+    text-align: center;
+    border-bottom:1px solid #002052 ;
+    padding-bottom: 20px;
+}
+
+.box .text{
+    font-size: 25px;
+    color: #002052;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+.box p{
+    font-size: 20px;
+    color: #002052;
+    padding-bottom: 25px;
+    font-weight: 600;
+}
+.cart{
+    gap: 20px;
+}
+.btn2{
+   display: flex;
+   justify-content: space-around;
+   align-items: center; 
+   
+}
+.btn2 button{
+    font-size: 15px;
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    background-color: rgb(193, 193, 0);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #002052;
+}
+.btn2 button:hover{
+    background-color: #002052;
+    color: rgb(193, 193, 0);
+}
+.ii1{
+    text-align: center;
+    font-size: 18px;
+    color: #002052;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.ill i{
+    transition: all 0.3s ease;
+}
+.ii1:hover i {
+    margin-left: 5px;
+}
+
+.go h1{
+    font-size: 25px;
+    color: #002052;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.max-width{
+    max-width: 1300px;
+}
+.go{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: calc(100 / 3 );
+}
+.flexx {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.service{
+    padding: 15px;
+    background-color:aliceblue;
+    margin-bottom: 50px;
+    max-width: 100%;
+    width: 30%;
+}
+.service .img img{
+    padding-bottom: 20px;
+    max-width: fit-content  ;
+}
+.service .text{
+    color: #002052;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom:70px ;
+}
+.service  span{
+    color: #002052;
+    font-size: 20px;
+    font-weight: 700;
+}
+.service p{
+    color: #002052;
+    font-size: 20px;
+}
+.btn-3{
+    margin-left:50px;
+    margin-bottom: 30px;
+}
+.btn-3 button{
+    font-size: 20px;
+    padding: 20px;
+    padding-inline: 25px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(190, 190, 0);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-3 button:hover{
+    background-color: #002052;
+    color: rgb(190, 190, 0);
+}
+.reviews{
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.order{
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.coll{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    color: #002052;
+    font-weight: 900;
+    font-size: 18px;
+}
+.order .text{
+    font-size: 18px;
+    color: #002052;
+    font-weight: 800;
+}
+.r1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #002052;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.r1 a{
+    color: #002052;
+}
+.r2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: #002052;
+    font-weight: 500;
+    font-size: 18px;
+}
+.r2 a{
+    color: #002052;
+}
+.benefits{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.custom{
+    color: #002052;
+    font-size: 25px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.s1{
+    width: 400px;
+    padding: 20px;
+}
+.s1 .img img{
+    padding-bottom: 20px;
+}
+.s1 .text{
+    color: #002052;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.s1 p{
+    color: #002052;
+    font-size: 18px;
+}
+.industry{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.tai{
+    color: #002052;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.needs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img{
+    max-width: 100%;
+}
+.med1 img{
+    padding-inline: 10px;
+}
+.med1{
+    display: flex;
+    align-items: center;
+    width: 630px;
+    padding: 20px;
+    background-color:aliceblue;
+    margin-bottom: 20px;
+    max-width: fit-content;
+}
+.more{
+    padding-left: 40px;
+    border-left: 1px solid #7d95bb;
+    font-size: 20px;
+    color: #011739;
+}
+.more ul{
+    padding: 10px;
+    gap: 20px;
+}
+.more li{
+    padding: 10px;
+}
+.btt2 button{
+    padding: 20px;
+    padding-inline: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(203, 203, 0);
+    color: #002052;
+    cursor: pointer;
+    transition: all 0.3s ease ;
+}
+.btt2 button:hover{
+    background-color: #002052;
+    color: rgb(203, 203, 0);
+}
+.hidden{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.fees{
+    color: #002052;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.lan{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.s3{
+    color: #002052;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+.lan .h1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #fff;;
+    color: #002052;
+    box-shadow:0 2px 10px #00000030;
+}
+.lan p{
+    padding-left: 20px;
+    font-size: 20px;
+    color: #002052;
+}
+.tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#002052;
+    color: white;
+    margin-bottom: 10px;
+    padding:16px 20px;
+}
+.t1 span{
+    padding-inline: 10px;
+    font-size: 20px;
+}
+.table{
+    padding: 20px 20px 2px 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.rowspan{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #002052;
+    font-size: 20px;
+    font-weight: 600;
+}
+.rowspan .h11{
+    background-color: rgb(157, 157, 3);
+    margin-inline: 8px;
+    border-radius: 50%;
+    padding: 8px 0;
+}
+.slid{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.sl1{
+    color: #002052;
+    font-size: 20px;
+    font-weight: 800;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: aliceblue;
+}
+.tex{
+    font-size: 20px;
+    color: #002052;
+    margin-bottom: 30px;
+}
+.med{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.bunt{
+    margin-inline: 20px;
+}
+.bunt button{
+    width: 200px;
+    text-align: left;
+    padding-left: 12px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color:#002052;
+    font-weight: 900;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.bunt button:hover{
+    background-color: #002052;
+    color: white;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.logo .img img{
+    padding-inline: 7px;
+}
+.clc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+    padding: 40px;
+}
+.creation{
+    width: 700px;
+    font-size: 30px;
+    color: #002052;
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-right: 1px solid #97baf1;
+    padding-right: 50px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.head{
+    color: #002052;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.pra{
+    color: #002052;
+    font-size: 20px;
+    width: 800px;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+.nom{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.num{
+    width: 300px;
+    border: 1px solid #92b0e0;
+    padding: 50px;
+    text-align: center;
+    margin-inline: 10px;
+    border-radius: 20px;
+}
+.num span{
+    font-size: 80px;
+    color: #002052;
+    font-weight: 900;
+}
+.num p{
+    color: #002052;
+    font-size: 25px;
+    font-weight: 700;
+}
+.manage{
+    display: flex;
+    justify-content: center;
+}
+.management{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+    max-width: 100%;
+}
+.mm1{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.m1{
+    width: 400px;
+    text-align: center;
+    gap: 20px;
+    max-width: 100%;
+}
+
+
+.team{
+    color: #002052;
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.enter{
+    background-image:url("https://d1tfzqz2829nun.cloudfront.net/img/pages2/backgrounds/sections/s-enterprise-solutions-bg1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.enterprise{
+    width: 500px;
+    padding-left: 50px;
+    max-width: 100%;
+}
+.solu{
+    font-size: 20px;
+    color: #002052;
+    padding-bottom: 20px;
+}
+.best p{
+    color: #002052;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.bttn2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bttn2 button{
+    padding-inline: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(208, 208, 28);
+    color: #002052;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.bttn2 button:hover{
+    background-color: #002052;
+    color:rgb(208, 208, 28);
+}
+.bttn2 span{
+    color: #002052;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bttn2 span i:hover{
+    padding-left: 6px;
+}
+.trust{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.divider{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: #002052;
+}
+.log2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: wheat;
+}   
+.a1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+}
+.a1 a{
+    padding-inline: 20px;
+    text-decoration: none;
+    color: wheat;
+}
+.close{
+    font-size: 18px;
+    border: 1px solid rgb(249, 249, 249);
+    padding: 20px 45px 20px 45px;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: aliceblue;
+    color: #002052;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid white;
+}
+.captions{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.captions header{
+    border: none;
+}
+.captions a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: rgb(186, 193, 192);
+    padding-bottom: 10px;
+}
+.captions a:hover{
+    color: white;
+}
+.captions span{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.copy{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.about a{
+    color: wheat;
+    padding-inline: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.about i{
+    color: wheat;
+    padding-inline: 10px;
+    font-size: 25px;
+}
+@media screen and (max-width:900px){
+    .continer{
+        padding: 20px;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        text-align: center;
+    }
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        column-gap: 20px;
+    }
+    .box{
+        width: 100%;
+       text-align: center;
+    }
+    .service{
+        max-width: 100%;
+    }
+   .flexx{
+    display: flex;
+    flex-wrap: wrap ;
+    align-content: center;
+    justify-content: center ;
+    width:100%;
+
+   }
+   .left h1{
+    word-break: break-all;
+   }
+   .go{
+    display: flex;
+    flex-wrap: wrap;            
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+   }
+    .service{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      text-align: center;
+        width: 100%;
+    }
+   
+    .reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+    .order{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
+
+    }
+    .head{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+        
+    }
+    .pra{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      width: 100%;
+    }
+    .med1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+
+    }
+    .nom{
+        gap: 20px;
+    }
+    .custom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
+    .rowspan{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+       width: 100%;
+       max-width: 100%;
+    }
+    .client{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .med{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width:100%;
+        
+    }
+    .industry{
+        padding: 20px;
+    }
+    .bunt{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .logo{
+        display: flex;
+       flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .clc{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .max-width{
+        max-width: 100%;
+    }
+    .clc img{
+        width: 100%;
+    }
+    .creation{
+        width: 100%;
+    }
+    .pra{
+        text-align: center;
+        padding: 20px;
+    }
+    .tai{
+        text-align: center;
+    }
+    .fees{
+        text-align: center;
+
+    }
+    .s3{
+        text-align: center;
+    }
+    .lan{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .number{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+    .tag{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .table{
+        display: flex;
+        flex-direction: column;
+        width: 100%;    
+    }
+    .slid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .team{
+        text-align: center;
+    }
+    .bttn2{
+        gap: 20px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .log2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact header{
+        padding: 20px;
+    }
+    .manage{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .mm1{
+        width: 100%;
+    }
+    .m1{
+        width: 100%;
+    }
+    .divider{
+        text-align: center;
+        width: 100%;
+    }
+    .logo img{
+        max-width: 100%;
+
+    }
+    .img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .m1 img{
+        width: 100%;
+    }
+    .s1{
+        width: 100%;
+    }
+    .a1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .num{
+        width: 100%;
+    }
+    
+}  
