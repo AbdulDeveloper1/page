@@ -788,6 +788,13 @@ header .link a:hover{
         width:100%;
         text-align: center;
     }
+    .rowspan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
     .boxes{
         display: flex;
         flex-wrap: wrap;
@@ -909,7 +916,7 @@ header .link a:hover{
     .industry{
         padding: 20px;
     }
-    .bunt{
+    .med{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -989,6 +996,9 @@ header .link a:hover{
         text-align: center;
     }
     .bttn2{
+        display: flex;
+        justify-content: center;
+        max-width: fit-content;
         gap: 20px;
     }
     .footer{
@@ -1002,20 +1012,36 @@ header .link a:hover{
         flex-wrap: wrap;
         gap: 20px;
     }
+    .a1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
     .contact{
         display: flex;
         flex-wrap: wrap;
     }
     .contact header{
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
     .manage{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        padding: 40px;
     }
     .mm1{
+        padding: 40px;
         width: 100%;
     }
     .m1{
@@ -1046,5 +1072,10 @@ header .link a:hover{
     .num{
         width: 100%;
     }
-    
+   .m2 img{
+    max-width: fit-content;
+   } 
+   .divider{
+    padding-top: 30px;
+   }
 }  
